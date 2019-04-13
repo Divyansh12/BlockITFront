@@ -79,8 +79,12 @@ body::-webkit-scrollbar{
     width: 250px;
 }
 
-.cardt :hover{
-    box-shadow: 0 4px 4px 0 rgba(255,255,255,0.8)); 
+.cardt:hover{
+    box-shadow: 0 4px 4px 0 rgba(255,255,255,0.8); 
+}
+
+.card-img-overlay:hover{
+    background:  rgba(0,0,0,0.3);
 }
   
 .navbar-wrapper>.container{
